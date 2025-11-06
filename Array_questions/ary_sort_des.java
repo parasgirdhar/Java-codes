@@ -1,3 +1,5 @@
+// sort array in descending order...
+
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -12,4 +14,5 @@ Integer arr[]={2,6,4,8,7,9,2,8,1,3};
 System.out.println(Arrays.toString(arr));
 
     }
+
 }
