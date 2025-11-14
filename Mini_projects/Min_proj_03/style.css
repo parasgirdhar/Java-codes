@@ -1,0 +1,264 @@
+
+
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.main{
+    height: 100px;
+    width: 100%;
+padding: 0px 0px;
+    display: flex;
+}
+
+#main-1{
+    width: 60%;
+    height: 100%;
+   background-color: rgb(243, 243, 88);
+    padding-left: 53px;
+    padding-top: 24px;
+    font-size: 19px;
+   
+}
+
+#main-2{
+    width:40%;
+   padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+  background-color: rgb(243, 243, 88);
+    padding-top: 25px;
+    font-size: 16px;
+}
+
+.middle{
+   
+    width: 100%;
+    height: 350px;
+   display: flex;
+    /* background-color: red; */
+     background-color: rgb(243, 243, 88);
+ 
+    
+
+}
+
+#mid-head{
+padding: 23px 90px;
+    font-size: 75px;
+    line-height: 150px;
+    display: flex;
+    font-weight: 600;
+     word-spacing: 3px;
+width: 60%;
+     letter-spacing: -2px;
+}
+
+#mid-head2{
+    width: 40%;
+      background-color: rgb(243, 243, 88);
+    display: flex;
+
+}
+
+#mid-head2 h4{
+padding-left: 130px;
+padding-bottom: 20px;
+justify-content: end;
+align-items: end;
+display: flex;
+font-weight: 600;
+
+}
+
+.partition{
+    height: 57px;
+    width: 100%;
+    background-color: rgb(243, 243, 88);
+    display: flex;
+    
+}
+
+#part-1{
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+      
+}
+
+#part-2{
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.partition i{
+    font-size: 20px;
+}
+
+
+
+.box{
+    margin-top: 10px;
+    padding: 0px 0px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    /* margin-left: 10px; */
+margin-left: 80px;
+}
+
+.box-1{
+     margin-top: 10px;
+    padding: 0px 0px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 90px;
+}
+
+#audi{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+     position: absolute;
+    transform: translate(0px 0px);
+    top: 183px;
+    right: 160px;
+}
+
+#img-1{
+ height: 40%;
+ width: 90%;
+ margin-top: 70px;
+ display: flex;
+justify-content: center;
+border-radius: 90px;
+overflow: hidden;
+margin-bottom: -30%;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 88); 
+    overflow: hidden;
+margin-bottom: -10%;
+height: 60%;
+}
+
+.bottom{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(31, 27, 27);
+    transform: translate(0px 0px);
+    top: 1092px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 15px 30px;
+  
+}
+
+.bottom h1{
+       color: rgb(243, 243, 88); 
+}
+
+.last-part{
+    height:250px;
+    width:100%;
+    /* background-color: red; */
+    position: absolute;
+    transform: translate(0px 0px);
+     top: 1212px;
+     display: flex;
+     border-top: 2px solid white;
+}
+
+#last-1{
+    width: 50%;
+    background-color: black;
+    
+}
+
+#last-2{
+    width: 50%;
+ background-color: black;
+}
+
+#bot-1 h1{
+    font-size: 60px;
+    padding-left: 30px;
+    line-height: 110px;
+   font-weight: 700;
+   color: white;
+   padding-top: 20px;
+}
+
+#bot-2 h3{
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 30px;
+    font-family: serif;
+    color: white;
+    padding-top: 30px;
+    
+}
+
+#last-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 21px;
+    
+}
+
+#dot-1{
+   border: 2px solid black;
+   padding: 12px 12px;
+   border-radius: 30px;
+   border-color: white;
+   color: white;
+}
+
+#dot-2{
+   border: 2px solid black;
+   padding: 12px 12px;
+   border-radius: 30px;
+   border-color: white;
+   color: white;
+}
+
+#dot-3{
+   border: 2px solid black;
+   padding: 12px 12px;
+   border-radius: 30px;
+   border-color: white;
+   color: white;
+}
+
+#dot-4{
+   border: 2px solid black;
+   padding: 10px 10px;
+   border-radius: 30px;
+   border-color: white;
+   color: white;
+}
